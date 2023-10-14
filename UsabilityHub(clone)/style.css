@@ -223,6 +223,10 @@ footer {
 .ftr-1img {
     width: 100%;
   }
+  .ftr2 ul li{
+    width: 180px;
+    text-align: center;
+  }
 
 @media screen and (max-width:1078px){
     .card-container{
@@ -255,5 +259,12 @@ footer {
 @media screen and (max-width:873px) {
     .links{
         display: none;
+    }
+    .btn-div{
+        padding: 1.2rem 0;
+        margin:auto
+    }
+    .logo{
+        margin:auto
     }
 }
